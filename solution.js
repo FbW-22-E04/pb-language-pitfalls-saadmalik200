@@ -2,11 +2,12 @@
 // NaN = Not a Number
 
 const text = "hello";
-console.log(typeof text === NaN);
-console.log("hello" === NaN);
-console.log(3 === NaN);
+console.log(typeof text);
+console.log(isNaN("hello"));
+console.log(isNaN(3));
 
 console.log(typeof NaN);
+console.log(typeof isNaN);
 // Type of NaN is number
 
 // #### 2. Rounding
